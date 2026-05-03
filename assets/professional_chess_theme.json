@@ -59,19 +59,6 @@
                 ]
             }
         },
-        "slicer": {
-            "*": {
-                "header": [
-                    {
-                        "fontColor": { "solid": { "color": "#4B3621" } }
-                    }
-                ],
-                "items": [
-                    {
-                        "fontColor": { "solid": { "color": "#333333" } }
-                    }
-                ]
-            }
         }
     }
 }
