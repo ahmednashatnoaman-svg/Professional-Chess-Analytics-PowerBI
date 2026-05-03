@@ -23,9 +23,9 @@ This guide is your exact checklist. Follow these steps linearly from opening Pow
 2. You will see your 4 tables. Arrange `Fact_Games` in the center.
 3. Drag and drop to connect the keys:
    * Drag `Opening_ID` from `Dim_Openings` and drop it onto `Opening_ID` in `Fact_Games`.
-   * Drag `Player_ID` from `Dim_Players` and drop it onto `Player_ID` in `Fact_Games`.
    * Drag `TimeControl_ID` from `Dim_TimeControls` and drop it onto `TimeControl_ID` in `Fact_Games`.
-4. Power BI will automatically create **1-to-Many (1:*)** relationships.
+   * **The Player Challenge (Role-Playing Dimension):** `Fact_Games` has both `white_id` and `black_id`. You cannot connect both actively to `Dim_Players`. 
+   * **The Pro Solution:** Go to the "Data" pane, right click `Dim_Players`, and copy/paste it to create two tables. Rename one to `Dim_White_Player` and connect its `Player_ID` to `white_id`. Rename the other to `Dim_Black_Player` and connect its `Player_ID` to `black_id`.
 
 ## Step 4: Apply the Premium UI Design (The Looks)
 1. Switch back to the **Report View** (the chart icon on the far left).
