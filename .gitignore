@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Power BI temp files
+*.pbit
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Note: We are keeping games.csv and the generated Dim/Fact CSVs in this repo 
+# because they are small enough (under 10MB) to serve as a portfolio demonstration.

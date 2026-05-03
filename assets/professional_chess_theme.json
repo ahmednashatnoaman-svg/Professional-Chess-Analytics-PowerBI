@@ -1,0 +1,79 @@
+{
+    "name": "Professional Chess Dashboard Theme",
+    "dataColors": [
+        "#8B4513",
+        "#D2B48C",
+        "#4B3621",
+        "#C0C0C0",
+        "#DEB887",
+        "#A0522D",
+        "#F5F5DC",
+        "#696969"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#333333",
+    "tableAccent": "#8B4513",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#E5E5E5" } },
+                        "radius": 10
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#000000" } },
+                        "position": "Outer",
+                        "transparency": 90,
+                        "blur": 10
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": { "solid": { "color": "#4B3621" } },
+                        "fontSize": 14,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#FDFCF0" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [
+                    {
+                        "fontColor": "#4B3621",
+                        "fontSize": 11
+                    }
+                ],
+                "items": [
+                    {
+                        "fontColor": "#333333",
+                        "fontSize": 10
+                    }
+                ]
+            }
+        }
+    }
+}
